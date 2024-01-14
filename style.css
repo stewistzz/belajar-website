@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.headline {
+    width: 100%;
+    height: 46px;
+    flex-shrink: 0; 
+    background-color: #000;
+}
+.headline .container-head {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+text-align: center;
+padding: 12px;
+}
+
+
+.navbar {
+    height: 89px;
+    background-color: #615F5F;
+}
+
+.searching {
+    height: 40px;
+}
+
+.form-control {
+    width: 500px;
+}
+
+/* pilihan style */
+.gender {
+    background-color: #000;
+    color: #FFF;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+}

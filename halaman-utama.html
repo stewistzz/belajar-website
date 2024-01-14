@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- section headline -->
+    <section class="headline">
+        <div class="container-head">
+            <h6>stay stylish all day for more confidence</h6>
+        </div>
+    </section>
+
+    <!-- section nama dan menu website -->
+    <section class="name-site">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="icon d-flex">
+                    <!-- icon -->
+                    <a class="navbar-brand" href="#">
+                        <img src="asset/ilustrasi-logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                      </a>
+                      <!-- brand -->
+                      <a class="navbar-brand" href="#">Style.day</a>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                  <form class=" searching d-flex mx-auto" role="search">
+                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit"><img src="asset/search-260.png "alt="Logo" width="25" height="25" class="d-inline-block align-text-top alt=""></button>
+                  </form>
+                <ul class="navbar-nav me-0 auto my-2 my-lg-0 navbar-nav-scroll d-flex" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><img src="asset/love-icon.png"  width="30" height="30" class="d-inline-block align-text-top" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="asset/cart shopping.png"  width="35" height="35" class="d-inline-block align-text-top" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true"><img src="asset/notifications-icon.png"  width="35" height="35" class="d-inline-block align-text-top" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true"><img src="asset/avatar profile.png"  width="35" height="35" class="d-inline-block align-text-top" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!-- section pilihan style -->
+    <section class="pilihan">
+        <div class="container d-flex justify-content-center">
+            <div class="gender">
+                <a class="nav-link" aria-disabled="true" href="#">MAN</a>
+            </div>
+            <div class="gender">
+                <a class="nav-link" aria-disabled="true" href="#">WOMAN</a>
+            </div>
+            <div class="gender">
+                <a class="nav-link" aria-disabled="true" href="#">KIDS</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section carousel -->
+    <section class="gambar">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="asset/foto-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="asset/foto-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="asset/fot-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
