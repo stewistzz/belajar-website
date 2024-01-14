@@ -18,15 +18,15 @@
 
     <!-- section nama dan menu website -->
     <section class="name-site">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg position">
             <div class="container-fluid">
                 <div class="icon d-flex">
                     <!-- icon -->
                     <a class="navbar-brand" href="#">
-                        <img src="asset/ilustrasi-logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                        <img src="asset/ilustrasi-logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-topw ms-3">
                       </a>
                       <!-- brand -->
-                      <a class="navbar-brand" href="#">Style.day</a>
+                      <a class="navbar-brand" href="#">Style.Day</a>
                 </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -37,17 +37,27 @@
                     <button class="btn btn-outline-light" type="submit"><img src="asset/search-260.png "alt="Logo" width="25" height="25" class="d-inline-block align-text-top alt=""></button>
                   </form>
                 <ul class="navbar-nav me-0 auto my-2 my-lg-0 navbar-nav-scroll d-flex" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="asset/love-icon.png"  width="30" height="30" class="d-inline-block align-text-top" alt=""></a>
+                  <li class="nav-item me-2">
+                    <a class="nav-link active" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                      </svg></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="asset/cart shopping.png"  width="35" height="35" class="d-inline-block align-text-top" alt=""></a>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                      </svg></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-disabled="true"><img src="asset/notifications-icon.png"  width="35" height="35" class="d-inline-block align-text-top" alt=""></a>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+                      </svg></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-disabled="true"><img src="asset/avatar profile.png"  width="35" height="35" class="d-inline-block align-text-top" alt=""></a>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                      </svg></a>
                   </li>
                 </ul>
               </div>
@@ -58,13 +68,13 @@
     <!-- section pilihan style -->
     <section class="pilihan">
         <div class="container d-flex justify-content-center">
-            <div class="gender">
+            <div class="gender d-flex align-items-center justify-content-center rounded-bottom-1">
                 <a class="nav-link" aria-disabled="true" href="#">MAN</a>
             </div>
-            <div class="gender">
+            <div class="gender d-flex align-items-center justify-content-center rounded-bottom-1">
                 <a class="nav-link" aria-disabled="true" href="#">WOMAN</a>
             </div>
-            <div class="gender">
+            <div class="gender d-flex align-items-center justify-content-center rounded-bottom-1">
                 <a class="nav-link" aria-disabled="true" href="#">KIDS</a>
             </div>
         </div>
@@ -99,6 +109,95 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+    </section>
+
+    <!-- section highlight of the week -->
+    <section class="week">
+        <div class="container">
+            <h2 class="text-center mt-3 mb-3">highlight of the week</h2>
+            <div class="pilihan">
+                <ul class="navbar-nav d-flex flex-row justify-content-evenly">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Innovation
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Product
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          New Items
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+              
+                </ul>
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- card section -->
+    <section class="card">
+        <div class="container d-flex justify-content-evenly mt-3">
+            <div class="card" style="width: 16rem;">
+                <img src="asset/background-grey.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 16rem;">
+                <img src="asset/background-grey.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 16rem;">
+                <img src="asset/background-grey.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 16rem;">
+                <img src="asset/background-grey.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
